@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+                android:id="@+id/action_camera_preview_revert"
+                android:title="Отменить изменения"
+                android:showAsAction="always"/>
+    </group>
+    <group>
+        <item
+                android:id="@+id/action_camera_preview_effect_gallery"
+                android:title="Эффекты"
+                android:showAsAction="always"/>
+    </group>
+    <group>
+        <item
+                android:id="@+id/action_camera_preview_create_dynamic"
+                android:title="Анимировать"
+                android:showAsAction="always"/>
+    </group>
+
+</menu>
